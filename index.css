@@ -29,15 +29,17 @@ button:hover {
     background-color: white;
     color: rgb(19, 9, 57);
 }
-#paper:hover {
-    content: url("paper\ -\ Copy.jpg");
- } 
- #rock:hover {
-    content: url("rock\ -\ Copy.jpg");
- } 
- #scissors:hover {
-    content: url("scissors\ -\ Copy.jpg");
- } 
+@media (min-width: 1200px) {
+    #paper:hover {
+        content: url("paper\ -\ Copy.jpg");
+     } 
+     #rock:hover {
+        content: url("rock\ -\ Copy.jpg");
+     } 
+     #scissors:hover {
+        content: url("scissors\ -\ Copy.jpg");
+     } 
+}
 
  * {
     box-sizing: border-box;
